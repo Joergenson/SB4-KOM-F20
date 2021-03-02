@@ -10,6 +10,7 @@ public class GameData {
     private float delta;
     private int displayWidth;
     private int displayHeight;
+
     private final GameKeys keys = new GameKeys();
     private List<Event> events = new CopyOnWriteArrayList<>();
 

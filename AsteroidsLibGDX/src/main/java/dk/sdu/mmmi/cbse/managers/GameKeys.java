@@ -22,7 +22,7 @@ public class GameKeys {
 	
 	public static void update() {
 		for(int i = 0; i < NUM_KEYS; i++) {
-			pkeys[i] = keys[i];
+				pkeys[i] = keys[i];
 		}
 	}
 	

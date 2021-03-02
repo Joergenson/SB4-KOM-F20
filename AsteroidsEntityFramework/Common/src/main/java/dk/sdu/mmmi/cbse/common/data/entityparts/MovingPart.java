@@ -61,6 +61,38 @@ public class MovingPart
         this.up = up;
     }
 
+    public float getDx() {
+        return dx;
+    }
+
+    public float getDy() {
+        return dy;
+    }
+
+    public void setDx(float dx) {
+        this.dx = dx;
+    }
+
+    public void setDy(float dy) {
+        this.dy = dy;
+    }
+
+    public float getDeceleration() {
+        return deceleration;
+    }
+
+    public float getAcceleration() {
+        return acceleration;
+    }
+
+    public float getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public float getRotationSpeed() {
+        return rotationSpeed;
+    }
+
     @Override
     public void process(GameData gameData, Entity entity) {
         PositionPart positionPart = entity.getPart(PositionPart.class);

@@ -19,7 +19,9 @@ public class SpaceObject {
 	
 	protected float[] shapex;
 	protected float[] shapey;
-	
+	protected float[] bulletx;
+	protected float[] bullety;
+
 	protected void wrap() {
 		if(x < 0) x = Game.WIDTH;
 		if(x > Game.WIDTH) x = 0;

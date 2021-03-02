@@ -3,10 +3,12 @@ package dk.sdu.mmmi.cbse.common.services;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 
-/**
- *
- * @author jcs
- */
 public interface IPostEntityProcessingService  {
+
+        /**
+         * @param gameData the current game data etc deltaTime, input and screen information.
+         * @param world collection of all entities and their vectors
+         * This method processes data in the game.
+         */
         void process(GameData gameData, World world);
 }
